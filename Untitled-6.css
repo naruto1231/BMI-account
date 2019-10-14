@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+.wrapper{
+width: 1250px;	
+    margin: 0 auto;
+    
+}
+body{
+    text-align: center;
+}
+.header{
+	background: black;
+	width: 1200px;
+	border-radius: 20px;
+	margin-right: 80px;
+}
+.header h1{
+	color: aliceblue;
+	margin-left: 20px;
+	margin-top: 10px;
+	display: inline-block;
+    float: left;
+	
+}
+.header h1 span{
+	color: red;
+}
+.header ul{
+	text-align: center;
+	color: white;
+	 
+		}
+.header ul li{
+display: inline-block;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	
+	
+}
+.header li a{
+	color: aliceblue;
+	display: block;
+	width: 100px;
+	height: 30px;
+	text-decoration:none;
+	line-height: 30px;
+	line-height: 2;
+	font-size: 20px;
+	
+}	
+	
+
+.header li a:hover{
+	color: white;
+	background: red;
+	
+}
+.main-box{
+	width: 1200px;
+	height: 600px;
+}
+
+.main{
+	margin-left: 20px;
+	margin-right: 80px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	
+	box-shadow: 10px 10px 10px 10px black;
+	
+}
+.main-contents{
+	
+	width: 880px;
+	float:left;
+	padding-left: 10px;
+
+	margin-top: 20px
+}
+.main-contents h1{
+	color: red;
+	margin-left: 20px;
+	background-color: indigo;
+	width:200px;
+	text-align: center;
+	border-radius: 10px;
+}
+.main-contents p{
+	margin-left: 20px;
+	border: solid 1px;
+	padding:5px;
+	border-radius: 5px;
+	background: #000000;
+	color: aliceblue;
+    
+
+	
+	
+}
+.main-contents ul{
+    float: left;
+}
+.main-contents li{
+	color: aqua;
+   
+	
+}
+#main2{
+	margin-left:0;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.main-contents h2{
+color:red;
+margin-left: 20px;
+	background-color: indigo;
+	width:200px;
+	text-align: center;
+	border-radius: 10px;
+}
+.main-contents ul {
+	
+    float: left;
+    width: 200px;
+	
+}
+
+.main-contents ul li{
+	margin-top: 10px;
+  
+}
+
+
+.aside{
+	width: 298px;
+	float:right;
+	margin-top: 30px
+	
+}
+    
+	
+.side1{
+	padding: 5px;
+	border: solid 1px #ddd;
+	border-radius: 10px;
+	padding:5px 10px;
+	margin-bottom:10px;
+	margin-right: 20px;
+	
+}
+.side2{
+	padding: 5px;
+	border: solid 1px #ddd;
+	border-radius: 10px;
+	padding:5px 10px;
+	margin-right: 20px;
+    margin-top: 40px;
+}
+.side1 h3{
+	color: aqua;
+	background: #272727;
+	text-align: center;
+	border-radius: 5px;
+	
+}
+.side1 h4{
+	text-align: center;
+	font-size: 20px;
+}
+.side1 a{
+	margin-top: 10px;
+	display: inline-block;
+	
+	font-size: 20px;
+}
+.side2 h3{
+	background: black;
+	color: aqua;
+	text-align: center;
+	border-radius: 5px;
+}
+.side2 ul li{
+	list-style-type: circle;
+	margin-top: 10px;
+    
+}
+.fotter{
+	background: black;
+	color:aliceblue;
+	height: 100px;
+	margin-top: 0px;
+    width: 1200px;
+    float: left;
+    border-radius: 10px;
+	
+}
+
+.fotter ul li{
+	display: inline;
+	margin-right: 30px;
+	margin-left: 30px;
+    text-align: center;
+	
+    
+			
+}
+.fotter ul li a{
+	color:aliceblue;
+	display: inline-block;
+	margin-top: 30px;
+    
+	
+	
+}
+.fotter li a:hover{
+	background: #A82022;
+	
+}
