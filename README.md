@@ -11,13 +11,11 @@ This tool can inset to code in wordpress article.
 ![images](https://user-images.githubusercontent.com/45584425/68003605-08462c80-fca9-11e9-910a-89614dfaf20e.jpg)
 
 ## Requirement
-
+You should be install wordpress.
 ## Usage
-
+You add plugin this tool.
 ## Install
-
-## Contribution
-
+COPY https://github.com/naruto1231/wordpless-insert-code/blob/master/paka3_addtext.php
 ## Licence
 
 [MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
