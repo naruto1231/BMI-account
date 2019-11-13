@@ -16,5 +16,4 @@ form
 <label for"Inputweight">体重(kg)</label>
 <input type="text" name="weight" class="form-control" id="Inputweight" placeholder="半角数字のみ">
 <button type="submit" class="btn btn-default">BMI計算</button>
-</body>
-</html>
+
