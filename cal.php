@@ -22,13 +22,13 @@ class Cal{
   /*
   *BMI判定関数
   */
-  function hentai(){
+  function hantei(){
     #cmをmに変換
     $height = $this->height/100;
     #BMI計算
     $bmi = $this->weight/($height * $height);
     #小数点以下を四捨五入
-    $bmi = round($bmi);
+    $bmi = round($bmi,1);
 
     BMi判定
     if($bmi < 18.5){
@@ -36,7 +36,7 @@ class Cal{
     }else if($bmi < 25){
       $result = "標準";
     }else if($bmi < 30){
-      $result = "肥満度1度"
+      $result = "肥満度1度";
     }
     else if($bmi < 35){
       $result = "肥満2度";
