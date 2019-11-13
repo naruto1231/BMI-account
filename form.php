@@ -10,15 +10,14 @@ form
 --->
 <form action="cal.php" method="post" role="form">
   <div class="form-group">
-  <label for="InputHeight">身長(cm)</lavel>
-  <input type="text" name="height" class="form-control" id="InputHeight" placeholder="半角数字のみ">
+  <label for="InputHeight">身長(cm)</label>
   <input type="text" name="height" class="form-control" id="InputHeight" placeholder="半角数字のみ">
 </div>
 <div class="form-group">
-<lavel for"Inputeweight">体重(kg)</label>
+<label for"Inputweight">体重(kg)</label>
 <input type="text" name="weight" class="form-control" id="Inputweight" placeholder="半角数字のみ">
 </div>
-<button type="submit" class="btn-default">BMI計算</button>
+<button type="submit" class="btn btn-default">BMI計算</button>
 </form>
 </body>
 </html>
