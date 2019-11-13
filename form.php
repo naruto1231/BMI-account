@@ -5,9 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="device-width", initial-scale=1>
 <title>BMI計算</title>
+ </head>
 <!---
 form
 --->
+ <body>
 <form action="cal.php" method="post" role="form">
   <div class="form-group">
   <label for="InputHeight">身長(cm)</label>
